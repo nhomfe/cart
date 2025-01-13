@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="/css/cart.css">
+  <link rel="stylesheet" href="/css/checkout_style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="header__logo">
+        <img src="/images/logo.png.png" alt="" />
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">HOME</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">ShOP</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">FRODUCTS</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">BLOG</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">PAGE</a>
+          </li>
+          <div class="icons">
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#">
+              <i class="fa-regular fa-user"></i></a>
+            <a href="#">
+              <i class="fa-regular fa-heart"></i></a>
+            <a href="#">
+              <i class="fa-solid fa-bag-shopping"></i><span class="cart-count">0</span></a>
+          </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+  </header>
+  <div class="uamo">
+    <div class="container">
+      <div class="main-nav">
+        <a class="active" href="#">
+          Cart
+        </a>
+        <a href="#">
+          Checkout
+        </a>
+        <a href="#">
+          Order Tracking
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="free-shipping">
+            <p>
+              Spend
+              <span>
+                $421
+              </span>
+              more and get
+              <span class="highlight">
+                free shipping!
+              </span>
+            </p>
+            <div class="progress-bar">
+              <div class="progress">
+              </div>
+              <div class="icon">
+                <i class="fas fa-shipping-fast">
+                </i>
+              </div>
+            </div>
+          </div>
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>
+                  Product
+                </th>
+                <th>
+                  Price
+                </th>
+                <th>
+                  Quantity
+                </th>
+                <th>
+                  Subtotal
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img alt="Image of a brown Bølling table" height="50"
+                    src="https://storage.googleapis.com/a1aa/image/yWGpHyGXVa7CDZadb9RUKL7pL3t27SGvAHy6NJ4I4XMtlL9E.jpg"
+                    width="50" />
+                  BØLLING TABLE - BROWN, M
+                </td>
+                <td>
+                  79.00$
+                </td>
+                <td>
+                  <div class="quantity-control">
+                    <button>
+                      -
+                    </button>
+                    <input type="text" value="1" />
+                    <button>
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td>
+                  79.00$
+                </td>
+                <td>
+                  <i class="fas fa-trash-alt">
+                  </i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="coupon-section">
+            <input placeholder="Coupon code" type="text" />
+            <button class="apply-coupon">APPLY COUPON</button>
+            <button class="continue-shopping">CONTINUE SHOPPING</button>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <cart-total>
+            <div class="cart-totals">
+              <h2>Cart Totals</h2>
+              <div class="row">
+                <div class="label">Subtotal</div>
+                <div class="value">79.00$</div>
+              </div>
+              <div class="shipping">
+                <div class="row">
+                  <div class="label">Shipping</div>
+                  <div class="details">
+                    <div><input type="radio" checked> Flat rate</div>
+                    <div>Shipping to <strong>Vietnam</strong>.</div>
+                    <div class="change-address">Change address</div>
+                  </div>
+                </div>
+              </div>
+              <div class="total">
+                <div>Total</div>
+                <div>79.00$</div>
+              </div>
+              <div class="checkout-btn">Proceed to Checkout</div>
+            </div>
+          </cart-total>
+        </div>
+      </div>
+    </div>
+    <a class="footer_logo">
+      <img src="/images/logo.png.png" alt="" />
+      </a>
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="company-title">Company</h5>
+            <ul class="nav flex-column ch">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Showroom</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Story</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Share Your Style</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Giving Back</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Print Catalogs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="company-title">Products</h5>
+            <ul class="nav flex-column ch">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">In-Store Shopx</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Brands</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gift Cards</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Product Care</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Estimated Sale</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <div class="contact-info">
+              <h4>Free Customer Care</h4>
+              <p>+1969 234 9852</p>
+
+              <h4>Need live support?</h4>
+              <p>info@example.com</p>
+
+              <h4>Address:</h4>
+              <p>78 Marmora Road, Glasgow, D04 89GR</p>
+            </div>
+          </div>
+          <div class="col-md-5 ">
+            <form>
+              <h5 class="company-title">Subscribe to our newsletter and receive the latest product news.</h5>
+              <p>Open Hours: 8.30am – 9.30pm Monday to Friday.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <input id="newsletter1" type="text" class="form-control" placeholder="Enter your email email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; Uamo. All Rights Reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <h5 class="company-title">Follow Us</h5>
+            <li class="ms-3"><i class="fa-brands fa-instagram"></i>
+            <li class="ms-3"><i class="fa-brands fa-twitter"></i>
+            <li class="ms-3"><i class="fa-brands fa-facebook"></i>
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
