@@ -217,4 +217,32 @@ body {
     text-transform: uppercase;
     font-size: 14px;
 }
+.cart-table th,
+.cart-table td {
+    font-size: 18px;
+    padding: 15px;
+}
 
+.cart-table img {
+    width: 70px;
+    height: 70px;
+}
+.progress-bar {
+    height: 20px; 
+}
+
+.progress-bar .icon {
+    height: 35px;
+    width: 35px;
+}
+
+.progress-bar .icon i {
+    font-size: 16px;
+}
+
+.cart-table th,
+.cart-table td {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    padding: 15px;
+}
